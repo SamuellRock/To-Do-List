@@ -1,0 +1,67 @@
+/*Padrão para toda a pagina*/
+html {
+  background: #e67d48;
+}
+
+body {
+  font-family: montserrat, arial, verdana;
+}
+
+/*Estilo da DIV Container, centralizando toda a pagina*/
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Estilizando as tags que estão dentro da DIV de ID = msform, a mesma do container.*/
+
+/* Estilo da Box */
+#msform fieldset {
+  height: 80vh;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Estilo dos formularios (interage com o usuario) */
+#msform input,
+#msform select {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  font-size: 13px;
+  position: relative;
+}
+/* Estilo dos Botões */
+#msform .action-btt {
+  padding: 15px;
+  border: 1px solid #246280;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  background-color: #4095bd;
+  font-size: 13px;
+  position: relative;
+}
